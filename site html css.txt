@@ -3,6 +3,8 @@ conteúdo que vai ter no site
 ver introdução
 Ver de reduzir virtudes
 
+fazer ficar responsivo
+
 
 
 
