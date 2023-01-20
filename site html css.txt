@@ -1,11 +1,7 @@
 conteúdo que vai ter no site
 
 ver introdução
-
-
 fazer ficar responsivo
-
-
 Virtudes - fé e caridade ok
 Sacramentos - (ok)
 penitencia - (ok)
@@ -15,8 +11,11 @@ E.S - (ok)
 rotina (ok)
 
 
-
-diminuir conteudo dos links
+O que falta
+1- Ver introdução 
+2- Ver esperança e caridade
+3- Diminuir santos
+4- ver obras da misericordia e bem aventuranças
 
 
 
