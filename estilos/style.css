@@ -7,7 +7,7 @@
 }
 
 body, html {
-    background-color: #add8e6;
+    background-color: lightblue;
 }
 
 header {
@@ -27,7 +27,7 @@ header > h1 {
 }
 
 i#burguer {
-    background-color: rgb(48, 48, 48);
+    background-color:  rgba(31, 175, 175, 0.658);
     color: white;
     display: block;
     text-align: center;
