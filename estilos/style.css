@@ -27,16 +27,16 @@ header > h1 {
 }
 
 i#burguer {
-    background-color:  rgba(28, 32, 43);
+ 
     color: white;
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
 i#burguer:hover {
-    background-color: white;
+   
     color: black;
 }
 
