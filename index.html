@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Católico</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="stylesheet" href="estilos/style.css" media="all">
 
-    <link rel="stylesheet" href="estilos/media-query.css">
-    <style>
-    body, html {
-        background-image: url(imagens/paisagemPedro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    }
-    </style>
+    
+   
 </head>
 <body onresize="mudouTamanho()">
     <header>
-        <h1>Site Católico</h1>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
-            <ul>
+        <h1></h1>
+      
+        <nav>
+            <a class="logo" href="/">Site Católico</a>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
                 <li><a href="virtudes.html">Virtudes</a></li>
                 <li><a href="sacramentos.html">Sacramentos</a></li>
                 <li><a href="penitencia.html">Penitencia</a></li>
@@ -32,7 +32,7 @@
                 <li><a href="EspíritoSanto.html">Espírito Santo</a></li>
                 <li><a href="Rotina.html">Rotina</a></li>
             </ul>
-        </menu>
+        </nav>
 
     </header>
     <main>
@@ -43,6 +43,7 @@
 
         </article>
     </main>
+    <script src="mobile-navbar.js"></script>
 
     <script>
 function mudouTamanho() {
