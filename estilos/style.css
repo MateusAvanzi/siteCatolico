@@ -21,7 +21,7 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: rgb(231, 217, 204);
     padding: 10px;
     text-align: center;
 }
@@ -29,7 +29,7 @@ header > h1 {
 i#burguer {
  
     color: white;
-    display: inline-block;
+    display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -52,7 +52,7 @@ menu {
 
 menu > ul > li > a {
     text-decoration: none;
-    color: white;
+    color:  white;
     font-weight: bold;
     margin-right: 30px;
     
