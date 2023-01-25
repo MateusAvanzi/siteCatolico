@@ -8,10 +8,12 @@
 
 body, html {
     background-color: lightblue;
+ 
+
 }
 
 header {
-    background-color: lightblue;
+  
     padding: 10px;
     margin: 10px;
 
@@ -41,8 +43,8 @@ i#burguer:hover {
 }
 
 
-nav {
-    background-color: rgba(31, 175, 175, 0.658);
+menu {
+ 
     padding: 3px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
     text-align: center;
@@ -50,26 +52,27 @@ nav {
 
 }
 
-nav > ul > li > a {
+menu > ul > li > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     margin-right: 30px;
+    
 }
 
-nav > ul {
+menu > ul {
     list-style-type: none;
 }
 
 
 
-nav > ul > li > a:hover {
+menu > ul > li > a:hover {
     text-decoration: underline;
 }
 
 main {
-    width: 96.5vw;
-    background-color: white;
+    width: 90vw;
+
     margin: auto;
     margin-top: 10px;
     padding: 10px;
