@@ -4,14 +4,12 @@
     i#burguer {
         display: none;
     }
-    menu {
+    nav {
         display: block;
     }
-    menu > ul > li {
+    nav > ul > li {
         display: inline-block;
     }
 
-    main {
-       width:  768px;
-    }
+
 }

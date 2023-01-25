@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,58 +10,125 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    
+    <style>
+       body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #add8e6;
+}
+header {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+header > h1 {
+    text-align: center;
+}
+nav {
+    background-color: rgba(31, 175, 175, 0.658);
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    text-align: center;
+    
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);;
+}
+article {
+    background-color: rgb(107, 212, 247);
+    padding: 5px;
+}
+article > aside {
+    background-color: rgba(31, 175, 175, 0.658);;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+    
+}
+footer > p {
+    margin: 0px; 
+    
+} 
+h1 {
+    color: white;
+}
+      
+    </style>
 </head>
 <body onresize="mudouTamanho()">
     <header>
         <h1>SITE CATÓLICO</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
+ 
+        <nav id="itens">
             <ul>
                 <li><a href="virtudes.html">Virtudes</a></li>
                 <li><a href="sacramentos.html">Sacramentos</a></li>
-                <li><a href="penitencia.html">Penitencia</a></li>
+                <li><a href="penitencia.html">Penitência</a></li>
                 <li><a href="Mandamentos.html">Mandamentos</a></li>
                 <li><a href="NossaSenhora.html">N.S e Santos</a></li>
                 <li><a href="EspíritoSanto.html">Espírito Santo</a></li>
                 <li><a href="Rotina.html">Rotina</a></li>
             </ul>
-        </menu>
-
+            
+        </nav>
     </header>
     <main>
-        <article>
-            <h2>Texto Media queries</h2>
-            <p>A Santidade está no amor</p>
-                <p>Este é o meu mandamento: amai-vos uns aos outros, como eu vos amo. (Jo 15, 12)</p>
+        <section id="Assuntos">
+        
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2></h2>
+                <p>Este é o meu mandamento: amai-vos uns aos outros, como eu vos amo.(Jo 15,12)</p>
                 <p>Tudo o que quereis que os homens vos façam, fazei-o vós a eles. (Mt 7, 12)</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente asperiores, magnam, atque repellendus velit nemo, possimus excepturi ab minus officiis veritatis. Perspiciatis minus, explicabo reiciendis in error cumque sit modi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla illum molestias nihil hic fugiat sunt qui aliquam enim sed fugit soluta, aliquid doloremque quisquam vitae perspiciatis expedita impedit. Vero?
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente asperiores, magnam, atque repellendus velit nemo, possimus excepturi ab minus officiis veritatis. Perspiciatis minus, explicabo reiciendis in error cumque sit modi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla illum molestias nihil hic fugiat sunt qui aliquam enim sed fugit soluta, aliquid doloremque quisquam vitae perspiciatis expedita impedit. Vero?
-            </p>
-
-        </article>
-    </main>
-
+                <aside>
+                    <p></p>
+                </aside>
+            </article>
+            <article>
+            </article>
+        </section>
+    </main> 
     <script>
-function mudouTamanho() {
-    if (window.innerWidth >= 768) {
-        itens.style.display = 'block'
-    } else {
-                itens.style.display = 'none'
-            }
-}
-
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-
-            } else {
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
                 itens.style.display = 'block'
-            }
+            } else {
+                        itens.style.display = 'none'
+                    }
         }
-    </script>
+        
+                function clickMenu() {
+                    if (itens.style.display == 'block') {
+                        itens.style.display = 'none'
+        
+                    } else {
+                        itens.style.display = 'block'
+                    }
+                }
+            </script>
+    <footer>
+        <p>Desenvolvido por Mateus Avanzi</p>
+    </footer>
     
 </body>
 </html>

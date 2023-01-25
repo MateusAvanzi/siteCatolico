@@ -41,33 +41,34 @@ i#burguer:hover {
 }
 
 
-menu {
+nav {
     background-color: rgba(31, 175, 175, 0.658);
     padding: 3px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
     text-align: center;
     display: none;
+
 }
 
-menu > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     margin-right: 30px;
 }
 
-menu > ul {
+nav > ul {
     list-style-type: none;
 }
 
 
 
-menu > ul > li > a:hover {
+nav > ul > li > a:hover {
     text-decoration: underline;
 }
 
 main {
-    width: 90vw;
+    width: 96.5vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
@@ -84,3 +85,4 @@ article > p {
     margin-bottom: 10px;
     text-indent: 20px;
 }
+
