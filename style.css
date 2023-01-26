@@ -29,7 +29,7 @@
   }
   
   main {
-    background: url("imagens/vaticano3.jpg") no-repeat right center;
+    background: url("imagens/vaticano3.jpg") no-repeat right top;
     background-size: cover;
     height: 92vh;
   }
