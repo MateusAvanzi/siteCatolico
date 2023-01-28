@@ -3,9 +3,7 @@ conteúdo que vai ter no site
 
 
 
-O que falta
-1- Ver introdução - fazer ficar responsivo
-
+terminado só ver botao de voltar
 
 
 
